@@ -10,6 +10,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">Happy Plants</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="cat.html">CAT</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="dog.html">DOG</a>
+        </li>
+      </ul>
+    
+    </div>
+    </nav>
 <h1>Plants by Venkata Gopi Siva Sai Nallapati</h1>
 <div class="container"> </div>
     <div class="row">
@@ -120,5 +137,30 @@
     </div>
   </div>
   </div>
+  <div class="btn-group" role="group" aria-label="dropdown">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      select dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="cat.html" style="background-color: lightgreen">CAT</a>
+      <a class="dropdown-item" href="dog.html" style="background-color: lightblue; color:white">DOG</a>
+    </div>
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="width: 500px;">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" >Plant</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant" style="width: 500px;">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+      
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </body>
 </html>
